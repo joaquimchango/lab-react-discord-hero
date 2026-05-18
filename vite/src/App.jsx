@@ -1,15 +1,17 @@
 // src/App.jsx
 import './index.css';
+import burger from './assets/burger-menu.png'
+import logo from './assets/logo.png'
 
 function App() {
   return (
   <div className="App">
         <div className='navbar'>
           <div className='logo'>
-            <img src='./assets/discord.png' alt=' logo' />
+            <img className='img' src={logo} alt=' logo' />
           </div>
           <div className='menu'>
-            <img src = './assets/menu.png' alt='menu' />
+            <img src ={burger} alt='menu' />
             </div>
             </div>
             <div className='hero'>
